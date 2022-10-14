@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Codera Unlocked",
+    "version": "1.0",
+    "description": "Permette di leggere i contenuti a pagamento sul sito del Corriere della Sera",
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.corriere.it/*"],
+        "js": ["corriere_core.js"]
+      }
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "ypp@gmail.com"
+        }
+      }
+  
+  }
