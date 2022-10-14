@@ -23,11 +23,11 @@ wallpay_n_obs.observe(body, obs_config);
 
 function obs_cb(mutationList, observer) {
     for (const mutation of mutationList) {
-        if (mutation.type = \"childList\" && document.querySelector('.tp-modal.wall-modal.fullWide') != null){
+        if (mutation.type = "childList" && document.querySelector('.tp-modal.wall-modal.fullWide') != null){
             setTimeout(() => {
                 document.querySelector('.tp-modal.wall-modal.fullWide').remove();
-                document.querySelector(\"div.tp-backdrop.tp-active\").remove();
-                body.classList.remove(\"tp-modal-open\");
+                document.querySelector("div.tp-backdrop.tp-active").remove();
+                body.classList.remove("tp-modal-open");
                 wallpay_n_obs.disconnect()
             }, 700)
         }
