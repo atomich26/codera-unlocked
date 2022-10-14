@@ -1,9 +1,9 @@
 # Corriere della Sera Unlocked
 📰 Questo add-on di <b>Firefox</b> permette di leggere tutti gli articoli a pagamento del Corriere della Sera.
 
-Sono supportate solo le versioni: <b>Firefox ESR</b>, <b>Firefox Developer Edition</b> e <b>Firefox Nightly</b>.
+>Sono supportate solo le versioni: <b>Firefox ESR</b>, <b>Firefox Developer Edition</b> e <b>Firefox Nightly</b>.
 
-### ⚠ Importante : Leggere le note prima di procedere.
+⚠ Importante : Leggere le note prima di procedere.
 
 ## Installazione add-on
 ⚠ Procedere con cautela, questa fase è solo per utenti esperti. L'autore non sarà responsabile dei problemi che ne possono derivare.
