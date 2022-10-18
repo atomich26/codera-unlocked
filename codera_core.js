@@ -44,20 +44,6 @@ function obs_cb(mutationList, observer) {
 
 
 
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
